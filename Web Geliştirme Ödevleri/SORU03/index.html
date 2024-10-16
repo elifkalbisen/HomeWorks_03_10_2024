@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendi Web Sitem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#works">Çalışmalar</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Hoş Geldiniz!</h1>
+        <p>Benim adım ----------. Yazılım geliştirme, web tasarımı ve veri analizi gibi alanlarda uzmanım.</p>
+        <div class="skills">
+            <h2>Yeteneklerim</h2>
+            <div class="skill">
+                <span>HTML</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>C#</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="works">
+        <h1>Çalışmalar</h1>
+        <div class="project-card">
+            <h2>Web Uygulaması Geliştirme</h2>
+            <p>Kullanıcı dostu arayüzler tasarlayıp, dinamik web uygulamaları geliştirdim.</p>
+        </div>
+        <div class="project-card">
+            <h2>Veri Analizi Projesi</h2>
+            <p>Büyük veri setleri üzerinde analiz yaparak raporlar hazırladım.</p>
+        </div>
+        <div class="project-card">
+            <h2>Mobil Uygulama</h2>
+            <p>Android platformu için kullanıcı etkileşimi yüksek bir mobil uygulama geliştirdim.</p>
+        </div>
+        <div class="project-card">
+            <h2>E-Ticaret Sitesi</h2>
+            <p>Bir e-ticaret platformu için tam kapsamlı bir web sitesi oluşturdum.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h1>Hakkımda</h1>
+        <p>Yazılım mühendisiyim ve 5 yıldan fazla deneyimim var. Farklı projelerde çalışarak, yazılım geliştirme süreçlerini derinlemesine öğrenme fırsatı buldum. HTML, CSS, JavaScript, Python ve C# gibi dilleri kullanarak, kullanıcı ihtiyaçlarına uygun çözümler sunuyorum. Hedefim, sürekli öğrenerek ve yenilikleri takip ederek kendimi geliştirmektir.</p>
+    </section>
+    
+    <section id="contact">
+        <h1>İletişim</h1>
+        <form id="contactForm">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
